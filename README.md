@@ -16,9 +16,9 @@
 
 | 도구/단계 | 구성 화면 |
 |---|---|
-| Make (P1 · 퀴즈 자동채점) | `(project1)-make.jpg` |
-| Zapier (P1 · 비교 구조) | `(project1)-Zapier1.jpg`,`(project1)-Zapier.jpg` |
-| Make (P2 · 만족도 설문) | `(project2)-make.png` |
+| Make (P1 · 퀴즈 자동채점) | <img src="(project1)-make.jpg"> |
+| Zapier (P1 · 비교 구조) | <img src="(project1)-Zapier1.jpg">,<img src="(project1)-Zapier2.jpg"> |
+| Make (P2 · 만족도 설문) | <img src="(project2)-make.jpg"> |
 
 > ⚠️ 위 스크린샷 파일은 실제 캡처본으로 교체해야 함(본 문서 작성 시점에는 Make 블루프린트(JSON)만 제공되어 파일 경로는 자리표시용). 조건 분기(Router)의 **각 경로가 1회 이상 실제 실행된 결과**가 스크린샷에 드러나야 평가기준을 충족함(예: 합격 1건 + 불합격 1건, 만족 1건 + 보통 1건 + 불만족 1건).
 
