@@ -15,7 +15,7 @@
 ## 스크린샷 (구성 화면 + 실행 결과)
 
 | 도구/단계 | 구성 화면 |
-|---|---|---|
+|---|---|
 | Make (P1 · 퀴즈 자동채점) | `(project1)-make.jpg` |
 | Zapier (P1 · 비교 구조) | `(project1)-Zapier1.jpg`,`(project1)-Zapier.jpg` |
 | Make (P2 · 만족도 설문) | `(project2)-make.png` |
