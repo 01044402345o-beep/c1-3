@@ -163,15 +163,6 @@ Google Sheets(합격자 시트)        Google Sheets(불합격자 시트)
 
 ---
 
-## 보너스 (수행 여부)
-
-- **보너스 1 – AI 연동 Action**: **미수행**. 현재 두 블루프린트 모두 `google-forms:watchResponses` → `builtin:BasicRouter` → `google-sheets:addRow` / `google-email:sendAnEmail` 모듈로만 구성되어 있으며, ChatGPT/Claude 등 생성형 AI Action은 포함되어 있지 않다.
-  - **향후 설계안**: 프로젝트2 "의견을 남겨주세요(선택)" 텍스트 응답을 OpenAI/Claude 모듈로 감정분류(긍정/중립/부정) 또는 1줄 요약해, Router 분기 조건이나 시트 컬럼에 추가하는 방식으로 확장 가능.
-- **보너스 2 – 실패 알림 및 재시도 전략**: **미수행**. Error Handler 라우트나 재시도 설정이 블루프린트에 없다.
-  - **향후 설계안**: Make 시나리오에 Error Handler 라우트를 추가해 모듈 실패 시 Slack/이메일로 알림(어느 모듈·에러코드 포함), Google Sheets 저장 실패 시 임시 시트에 우선 적재 후 배치 복구, 응답 ID 기준 중복 적재 방지 로직 추가.
-
----
-
 ## 동작 구조 원리 (요약)
 
 - **Trigger-Action 모델**: Trigger(폼 응답 폴링) → Router(조건 분기) → Action 체인(시트 기록/메일 발송). 코드 없이 시각 노드로 이벤트 파이프라인을 구성.
