@@ -17,7 +17,7 @@
 | 도구/단계 | 구성 화면 |
 |---|---|
 | Make (P1 · 퀴즈 자동채점) | <img src="img/(project1)-make.jpg"> |
-| Zapier (P1 · 비교 구조) | <img src="img/(project1)-Zapier.png"> |
+| Zapier (P1 · 비교 구조) | <img src="img/(project1)-zapier.png"> |
 | Make (P2 · 만족도 설문) | <img src="img/(project2)-make.png"> |
 
 
