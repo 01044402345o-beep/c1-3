@@ -18,6 +18,7 @@
 |---|---|
 | Make (P1 · 퀴즈 자동채점) | <img src="img/(project1)-make.jpg"> |
 | Zapier (P1 · 비교 구조) | <img src="img/(project1)-zapier.png"> |
+| Make (P1 · 결과) | <img src="img/project1.png"> |
 | Make (P2 · 만족도 설문) | <img src="img/(project2)-make.png"> |
 | Make (P2 · 결과) | <img src="img/project2.png"> |
 
